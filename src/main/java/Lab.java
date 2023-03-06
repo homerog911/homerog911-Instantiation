@@ -18,6 +18,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Car car1 = new Car("Blue",5,5);
+        return car1;
     }
 }
